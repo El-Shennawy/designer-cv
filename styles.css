@@ -107,7 +107,7 @@ body {
 }
 
 .hero h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: 700;
 }
 
@@ -603,9 +603,7 @@ footer .container {
         height: 240px;
     }
     
-    .work-item {
-        padding: 1.25rem;
-    }
+
 }
 
 /* Additional Mobile Optimizations */
@@ -614,9 +612,7 @@ footer .container {
         padding: 4rem 0;
     }
     
-    .work-item {
-        padding: 1.5rem;
-    }
+
     
     .contact {
         padding: 3rem 0;
