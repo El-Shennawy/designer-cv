@@ -520,11 +520,6 @@ footer .container {
         transform: translateY(0);
     }
     
-    /* Mobile menu animation */
-    .mobile-menu-btn span {
-        transition: transform 0.3s ease, opacity 0.3s ease;
-    }
-    
     .mobile-menu-btn.active span:nth-child(1) {
         transform: rotate(45deg) translate(5px, 5px);
     }
@@ -537,7 +532,6 @@ footer .container {
         transform: rotate(-45deg) translate(5px, -5px);
     }
     
-    /* Prevent body scroll when menu is open */
     body.menu-open {
         overflow: hidden;
     }
